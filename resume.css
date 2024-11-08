@@ -1,0 +1,308 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #121212;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Container */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Profile Card */
+.profile-card {
+    background-color: #1e1e1e;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+}
+
+.profile-pic img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.profile-details {
+    flex: 1;
+}
+
+.profile-details h2 {
+    font-size: 26px;
+    color: #fff;
+}
+
+.profile-details h4 {
+    font-size: 18px;
+    color: #aaa;
+    margin-bottom: 10px;
+}
+
+.social a {
+    margin-right: 10px;
+    color: #aaa;
+    font-size: 20px;
+    transition: color 0.3s;
+}
+
+.social a:hover {
+    color: #0073e6;
+}
+
+.contact-info .row {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.contact-info .icon {
+    font-size: 20px;
+    margin-right: 10px;
+    color: #0073e6;
+}
+
+.contact-info h5 {
+    font-size: 16px;
+    color: #ddd;
+}
+
+.download-btn {
+    background-color: #0073e6;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.download-btn:hover {
+    background-color: #005bb5;
+}
+
+/* About Section */
+.about {
+    background-color: #1e1e1e;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    margin-bottom: 40px;
+}
+
+.about h1, .about h2 {
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.about p {
+    color: #bbb;
+    margin-bottom: 15px;
+    line-height: 1.8;
+}
+
+/* Work Section */
+.work {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.workbox {
+    background-color: #1e1e1e;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    flex: 1 1 calc(50% - 10px);
+    padding: 20px;
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    transition: transform 0.3s ease;
+}
+
+.workbox:hover {
+    transform: scale(1.02);
+}
+
+.workbox .icon img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.workbox h3 {
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.workbox p {
+    color: #bbb;
+    line-height: 1.6;
+}
+/* Experience Section */
+.experience, .qualifications, .certificates {
+    background-color: #1e1e1e;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    margin-bottom: 40px;
+}
+
+.experience h1, .qualifications h1, .certificates h1 {
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.experience-item, .qualification-item, .certificate-item {
+    margin-bottom: 15px;
+}
+
+.experience-item h3, .qualification-item h3, .certificate-item h3 {
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+.experience-item p, .qualification-item p, .certificate-item a {
+    color: #d3d3d3;
+}
+
+.certificate-item a {
+    color: #ff7b00;
+    text-decoration: none;
+}
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+h1, h3 {
+    font-weight: bold;
+    color: #333;
+}
+ul {
+    padding-left: 20px;
+}
+
+/* Section Titles */
+h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #007bff;
+}
+
+/* Education Section */
+.education-item {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.education-item h3 {
+    font-size: 1.4em;
+    color: #222;
+}
+.education-item p {
+    color: #555;
+    font-size: 1em;
+}
+
+/* Volunteering Section */
+.volunteering-item {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.volunteering-item h3 {
+    font-size: 1.4em;
+    color: #222;
+}
+.volunteering-item p {
+    color: #555;
+    font-size: 1em;
+}
+
+/* Skills Section */
+.skills ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+.skills li {
+    font-size: 1.2em;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+.skills li:before {
+    content: "• ";
+    color: #007bff;
+    font-size: 1.5em;
+    margin-right: 10px;
+}
+
+/* Interests Section */
+.interests ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+.interests li {
+    font-size: 1.2em;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+.interests li:before {
+    content: "• ";
+    color: #28a745;
+    font-size: 1.5em;
+    margin-right: 10px;
+}
+
+/* Certifications Section */
+.certifications .certificate-item {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.certifications .certificate-item h3 {
+    font-size: 1.4em;
+    color: #222;
+}
+.certifications .certificate-item a {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+.certifications .certificate-item a:hover {
+    text-decoration: underline;
+}

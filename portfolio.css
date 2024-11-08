@@ -1,0 +1,315 @@
+/* * {
+    box-sizing: border-box;
+    background-image: url('https://gtwallpaper.org/sites/default/files/wallpaper/247102/portfolio-background-247102-1465860-1745301.png');
+}
+img{
+    margin:-9px;
+    height:650px;
+    width:60%;
+}
+#im{
+    margin:-9px;
+    height:650px;
+    width:41%;
+}
+#naaz-img{
+    margin:-9px ;
+    height:250px;
+    width:24%;
+    align-content: center;
+    margin-left: 700px;
+    margin-top: -400px;
+    border:dotted;
+    border-color: white;
+}
+h1{
+    margin-top: -480px;
+    padding-bottom:-20px;
+    margin-left:120px; 
+    font-size:48px; 
+    color:#fbf5ca;
+}
+#re{
+    margin-top:-30px;
+    font-size:48px; 
+    color:#fbf5ca;
+}
+p{
+    margin-left: 120px;
+    color:#fbf5ca;
+    padding-top:0px;
+    font-size: 18px;
+}
+h2{
+    margin-left:120px;
+    margin-top:400px;
+    font-size:48px;
+    color:#1c0077;
+}
+#a{
+    color: black;
+    font-size: 20px;
+    margin-top:-150px;
+     margin-left:6px;
+     padding:-20px;
+}
+#b{
+    color: black;
+    margin-left:6px;
+    font-size: 20px;
+}
+#c{
+    color: black;
+    margin-left:6px;
+    font-size: 20px;
+}#d{
+    color: black;
+    font-size: 20px;
+    margin-left:6px;
+}#e{
+    color: black;
+    font-size: 20px;
+    margin-left:6px;
+}
+
+#peragraph{
+    margin-left:-6px;
+    color: black;
+    font-size: 20px;
+    margin-top:-400px;
+}
+#naaz{
+    color: black;
+}#f{
+    color: black;
+    margin-left:6px;
+    font-size: 20px;
+}
+#g{
+    color: black;
+    margin-left:6px;
+    font-size: 20px;
+}
+#h{
+
+    color: black;
+    margin-left:6px;
+    font-size: 20px;
+}
+#i{
+    color: black;
+    margin-left:6px;
+    font-size: 20px;}
+    #j{
+        color: black;
+        margin-left:6px;
+        font-size: 20px;}
+        #k{
+            color: black;
+            margin-left:6px;
+            font-size: 20px;}
+            #l{
+                color: black;
+                margin-left:6px;
+                font-size: 20px;
+            }
+           #naaz{
+            margin-left:600px;
+            color: black;
+            font-size: 20px;
+            margin-top:-300px;
+           }
+    
+
+           #cot1 {
+            height: 700px;
+            width: 1469px;
+            background-color: #0003a1;
+            background-image: none; 
+            margin-left:-8px;
+            border-width: 10px;
+            margin-top: 90px;
+            color: #d71717;
+        }
+        #heading{
+            background-image: none;
+            font-size: 32px;
+            color: rgb(132, 203, 132);
+        }
+        #image{
+            margin-left: 900px;
+            margin-top: -190px;
+            padding:20px;
+            width: 550px;
+            height: 550px;
+            
+            background-color: #0003a1;
+
+        }
+        #kavit,#ka,#kav,#kavi{
+            background-image: none;
+            margin-left:20px;
+            margin:8px;
+        } */
+
+
+
+        /* General mobile styles */
+@media (max-width: 768px) {
+    /* Adjust container padding for smaller devices */
+    #container {
+        padding: 10px;
+    }
+
+    /* Make images responsive */
+    #img img {
+        width: 100%;  /* Make images take full width */
+        height: auto; /* Maintain aspect ratio */
+    }
+
+    /* Adjust the second image */
+    #im {
+        width: 100%; /* Make it responsive */
+        height: auto; /* Maintain aspect ratio */
+        margin-top: 20px;
+        margin-left: 0;
+    }
+
+    /* Make the profile image responsive */
+    #naaz-img {
+        width: 50%; /* Reduce the size for smaller screens */
+        height: auto;
+        margin: 20px auto;
+        display: block;
+        border: dotted;
+        border-color: white;
+    }
+
+    /* Adjust the main header size */
+    h1 {
+        font-size: 32px;
+        text-align: center;
+        margin: 0;
+    }
+
+    #re {
+        font-size: 32px;
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    /* Adjust paragraph font size */
+    p {
+        font-size: 16px;
+        text-align: center;
+        margin-left: 0;
+    }
+
+    /* Adjust secondary headings */
+    h2 {
+        font-size: 36px;
+        text-align: center;
+        margin-left: 0;
+        margin-top: 40px;
+    }
+
+    /* Adjust text for the "Design" section */
+    #peragraph {
+        font-size: 16px;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    /* Adjust about me section */
+    #naaz {
+        font-size: 16px;
+        margin-left: 0;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    /* Adjust the 'Aspiring Web Developer' section */
+    #cot1 {
+        width: 100%;
+        margin: 0;
+        padding: 10px;
+        height: auto;
+    }
+
+    #heading {
+        font-size: 24px;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    /* Adjust image in the 'Aspiring Web Developer' section */
+    #image {
+        width: 90%;
+        height: auto;
+        margin: 20px auto;
+        display: block;
+    }
+
+    #kavit, #ka, #kav, #kavi {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    /* Flexbox for arranging images */
+   /* Flexbox for arranging images */
+#img {
+    display: flex; /* Use flexbox to arrange images in a row */
+    align-items: center; /* Vertically center the images */
+    justify-content: space-between; /* Ensure no space between images */
+}
+
+#img img {
+    height: 100%; /* Make sure images take full height */
+    width: auto; /* Keep the width in proportion to height */
+}
+
+/* First image takes up 75% width */
+#img > img:first-child {
+    width: 75%;
+}
+
+/* Second image takes up 25% width */
+#img > img:nth-child(2) {
+    width: 25%;
+}
+
+/* Adjust #naaz-img to be between the other two images */
+#naaz-img {
+    position: relative;
+    width: auto; /* Keep original width for the image */
+    height: 100%; /* Make sure it fits between the other two images */
+    margin-left: -50px; /* Adjust to overlap images without space */
+}
+
+
+/* Smaller mobile screens */
+@media (max-width: 480px) {
+    /* Adjust font sizes further for very small devices */
+    h1, #re {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+
+    p, #peragraph p, #naaz p {
+        font-size: 14px;
+    }
+
+    #heading {
+        font-size: 20px;
+    }
+
+    /* Adjust image in 'Aspiring Web Developer' section */
+    #image {
+        width: 80%; /* Further reduce image size */
+        padding: 10px;
+    }
+}
+}
