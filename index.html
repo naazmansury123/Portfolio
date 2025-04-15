@@ -6,15 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Responsive Portfolio Website Design</title>
     <link rel="stylesheet" href="style.css">
-    <!----Font awesome cdn  font icon css -->
+    <!-- Font Awesome CDN -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
 </head>
 <body>
-     <div class="hero-header">
+    <div class="hero-header">
         <div class="wrapper">
             <header>
                 <div class="logo">
-                    <i class=""></i>
+                    <i class="fas fa-code"></i>
                     <div class="logo-text">Naaz Bano</div>
                 </div>
                 <nav>
@@ -25,64 +25,54 @@
                     </div>
                     <ul class="navlinks">
                         <li><a href="#">Home</a></li>
-                        <li id="cla"><a href="resume.html">Resume</a></li>
+                        <li><a href="resume.html">Resume</a></li>
                         <li><a href="blog.html">Blog</a></li>
                         <li><a href="contact.html">Contact</a></li>
                     </ul>
                 </nav>
             </header>
+
             <div class="container">
-                 <div class="hero-pic">
+                <div class="hero-pic">
                     <img src="what.jpeg" alt="profile pic">
-                 </div>
-                 <div class="hero-text">
+                </div>
+                <div class="hero-text">
                     <h5>Hi I'm <span class="input">Frontend Developer</span></h5>
-                    <h1>Naaz Mansuri/h1>
-<p>
-    I'm Naaz Mansuri, a passionate and motivated web developer with hands-on experience in HTML, CSS, and React.js,Wordpress Graphic Design, Angular.js ,JavaScript. I love building clean, responsive, and user-friendly websites. Always eager to learn and grow, I'm exploring new technologies to enhance my skills and deliver impactful digital experiences.
-</p>
-
-
+                    <h1>Naaz Mansuri</h1>
+                    <p>
+                        I'm Naaz Mansuri, a passionate and motivated web developer with hands-on experience in HTML, CSS, and React.js, WordPress, Graphic Design, Angular.js, and JavaScript. I love building clean, responsive, and user-friendly websites. Always eager to learn and grow, I'm exploring new technologies to enhance my skills and deliver impactful digital experiences.
+                    </p>
                     <div class="btn-group">
                         <a href="path/to/your-cv.pdf" download class="btn active">Download CV</a>
-                        
                         <a href="#contact-section" class="btn">Contact</a>
                     </div>
-
                     <div class="social">
-                        <a href="https://www.linkedin.com/in/naaz-mansuri-709325301/" target="_blank">
-                            <i class="fa-brands fa-linkedin"></i>
-                        </a>
-                        <a href="https://github.com/naazmansury123" target="_blank">
-                            <i class="fa-brands fa-github"></i>
-                        </a>
-                        <a href="#" target="_blank">
-                            <i class="fa-brands fa-instagram"></i>
-                        </a>
+                        <a href="https://www.linkedin.com/in/naaz-mansuri-709325301/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/naazmansury123" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        <a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a>
                     </div>
-                 </div>
+                </div>
             </div>
         </div>
-     </div>
-     <!---typed js for typing text effect-->
-     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js"></script>
-     <script>
-        /** creating button click show hide navbar **/
-        var togglebtn=document.querySelector(".togglebtn");
-        var nav=document.querySelector(".navlinks");
-        var links=document.querySelector(".navlinks li");
+    </div>
 
-        togglebtn.addEventListener("click", function(){
+    <!-- Typed.js for typing effect -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js"></script>
+    <script>
+        var togglebtn = document.querySelector(".togglebtn");
+        var nav = document.querySelector(".navlinks");
+
+        togglebtn.addEventListener("click", function () {
             this.classList.toggle("click");
             nav.classList.toggle("open");
-        })
+        });
 
-        var typed=new Typed(".input",{
-            strings:["Frontend Developer","Web Developer"],
-            typedSpeed:70,
-            backSpeed:55,
-            loop:true
-        })
-     </script>
+        var typed = new Typed(".input", {
+            strings: ["Frontend Developer", "Web Developer"],
+            typeSpeed: 70,
+            backSpeed: 55,
+            loop: true
+        });
+    </script>
 </body>
 </html>
